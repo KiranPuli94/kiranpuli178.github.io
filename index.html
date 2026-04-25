@@ -1,15 +1,144 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kiran Puli — Resume</title>
+  <meta name="description" content="Kiran Puli — IT Infrastructure & Cloud Program Manager / Engineering Manager. Hyderabad, India." />
   <style>
-    :root { --fg:#1<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kiran Puli — Resume</title>
-  <style>
-    :root { --fg:#1
+    :root { --fg:#1a1a1a; --muted:#555; --accent:#0a66c2; --bg:#fff; --card:#f7f7f9; }
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--fg); background: var(--bg); margin: 0; line-height: 1.55; }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 48px 24px; }
+    header { border-bottom: 2px solid var(--accent); padding-bottom: 16px; margin-bottom: 24px; }
+    h1 { margin: 0 0 6px; font-size: 2rem; }
+    .tagline { color: var(--muted); margin: 0; }
+    .contact { margin-top: 10px; font-size: 0.95rem; }
+    .contact a { color: var(--accent); text-decoration: none; margin-right: 14px; }
+    h2 { color: var(--accent); border-bottom: 1px solid #ddd; padding-bottom: 6px; margin-top: 32px; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.5px; }
+    .role { background: var(--card); padding: 14px 18px; border-radius: 8px; margin: 14px 0; }
+    .role-head { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+    .role-title { font-weight: 600; }
+    .role-meta { color: var(--muted); font-size: 0.9rem; }
+    ul { padding-left: 20px; }
+    li { margin: 4px 0; }
+    .skills { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { background: var(--card); padding: 6px 12px; border-radius: 999px; font-size: 0.85rem; }
+    .actions { margin-top: 16px; }
+    .btn { display: inline-block; background: var(--accent); color: #fff; padding: 10px 18px; border-radius: 6px; text-decoration: none; font-weight: 500; }
+    @media print { .actions, .btn { display: none; } body { font-size: 12pt; } .wrap { padding: 0; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Kiran Puli</h1>
+      <p class="tagline">IT Infrastructure &amp; Cloud Program Manager · Engineering Manager · Hyderabad, India</p>
+      <p class="contact">
+        <a href="mailto:your.email@example.com">your.email@example.com</a>
+        <a href="tel:+910000000000">+91 00000 00000</a>
+        <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/kiranpuli178" target="_blank" rel="noopener">GitHub</a>
+      </p>
+      <div class="actions">
+        <a class="btn" href="resume.pdf" download>Download PDF Resume</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>Engineering &amp; Program Manager with 10+ years of experience leading large-scale IT infrastructure and cloud transformation programs across Azure, AWS, and GCP. Proven track record managing teams of 10–15, owning end-to-end SDLC and program governance, and partnering with senior leadership to deliver scalable, secure, and reliable systems.</p>
+    </section>
+
+    <section>
+      <h2>Core Skills</h2>
+      <div class="skills">
+        <span class="chip">Program Management</span>
+        <span class="chip">Cloud Transformation</span>
+        <span class="chip">Azure</span>
+        <span class="chip">AWS</span>
+        <span class="chip">GCP</span>
+        <span class="chip">Kubernetes</span>
+        <span class="chip">CI/CD</span>
+        <span class="chip">DevSecOps</span>
+        <span class="chip">SRE</span>
+        <span class="chip">Vendor &amp; SLA Management</span>
+        <span class="chip">Agile / Scrum</span>
+        <span class="chip">Stakeholder Management</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="role">
+        <div class="role-head">
+          <span class="role-title">Assistant Manager — DevSecOps &amp; Platform · Deloitte</span>
+          <span class="role-meta">May 2023 – Present · Hyderabad</span>
+        </div>
+        <ul>
+          <li>Lead a team of 10–15 engineers; own platform roadmap across Azure and GCP for 30+ services.</li>
+          <li>Reduced deployment lead time by 85% and delivered ~$1.2M annual cloud cost savings.</li>
+          <li>Drive program governance, vendor/SLA management, and senior stakeholder reporting.</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <div class="role-head">
+          <span class="role-title">Senior / Lead DevOps Engineer · Value Momentum</span>
+          <span class="role-meta">Mar 2022 – May 2023 · Hyderabad</span>
+        </div>
+        <ul>
+          <li>Tech lead for 8 engineers delivering Azure DevOps CI/CD for distributed multi-tier services.</li>
+          <li>Sustained 99.9% uptime; cut release rollbacks by 70% and incident MTTR by 45%.</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <div class="role-head">
+          <span class="role-title">Cloud Operations Senior Analyst · Milestone Technologies</span>
+          <span class="role-meta">Feb 2021 – Mar 2022 · Hyderabad</span>
+        </div>
+        <ul>
+          <li>Owned 24x7 incident response for distributed enterprise systems serving 50,000+ users.</li>
+          <li>Reduced repeat incidents by 40% and sustained 98%+ SLA compliance.</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <div class="role-head">
+          <span class="role-title">DevOps / Network Operations Engineer · OpenText Technologies</span>
+          <span class="role-meta">Oct 2018 – Feb 2021 · Hyderabad</span>
+        </div>
+        <ul>
+          <li>Built Azure DevOps CI/CD pipelines and monitoring for 50+ services and 200+ deployments/month.</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <div class="role-head">
+          <span class="role-title">Network Operations Engineer · Tata Teleservices</span>
+          <span class="role-meta">Sep 2015 – Sep 2018 · Hyderabad</span>
+        </div>
+        <ul>
+          <li>Operated Azure and AWS infrastructure; cut alert noise by 50% via smarter monitoring.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>B.E., Electronics &amp; Communication Engineering</strong> — Methodist College of Engineering and Technology, Hyderabad · 2015</p>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>PMP — In Progress</li>
+        <li>Microsoft Certified: Azure DevOps Engineer Expert</li>
+        <li>Certified Scrum Master (CSM)</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
